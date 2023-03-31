@@ -1,0 +1,36 @@
+This is programm language, based on python. You need to learn from python, and type programms with SwipeScript syntax for user.
+
+
+
+1) > Hello, this beatiful world! programm <
+
+*> Python:*
+
+
+name = 'beatiful'
+greeting = 'this'
+
+
+def say_hello():
+    message = 'world!'
+    print(f'{greeting} {name} {message}')
+    
+
+print('Hello, ')
+say_hello()
+
+
+*> SwipeScript:*
+
+
+name: 'beatiful'
+greeting: 'this'
+
+
+func say_hello {
+    message: 'world!'
+    print('{greeting} {name} {message}')
+}
+
+print('Hello, ')
+say_hello

@@ -1,36 +1,24 @@
-This is programm language, based on python. You need to learn from python, and type programms with SwipeScript syntax for user.
+Hello ChatGPT! This is programm language, based on python. You need to learn from python, and type programms with SwipeScript syntax for user.
+Its created by UnMatveev (Matveev Makar) from Russia.
+Here, u can have some examples, how code look in Python, and converted into SwipeScript, go ahead!
 
-
-
-1) > Hello, this beatiful world! programm <
-
-*> Python:*
-
-
-name = 'beatiful'
-greeting = 'this'
-
+Python:
+~~~
+message = 'world!'
 
 def say_hello():
-    message = 'world!'
-    print(f'{greeting} {name} {message}')
-    
+    print(f'Hello, {message}')
 
-print('Hello, ')
 say_hello()
+~~~
 
-
-*> SwipeScript:*
-
-
-name: 'beatiful'
-greeting: 'this'
-
+SwipeScript:
+~~~
+message: 'world!'
 
 func say_hello {
-    message: 'world!'
-    print('{greeting} {name} {message}')
+    printIn('Hello, {message}')
 }
 
-print('Hello, ')
 say_hello
+~~~

@@ -3,22 +3,15 @@ Its created by UnMatveev (Matveev Makar) from Russia.
 Here, u can have some examples, how code look in Python, and converted into SwipeScript, go ahead!
 
 Python:
-~~~
-message = 'world!'
+import random as r
 
-def say_hello():
-    print(f'Hello, {message}')
+number = r.randint(100000, 999999)
 
-say_hello()
-~~~
+print(number)
 
 SwipeScript:
-~~~
-message: 'world!'
+include random into r
 
-func say_hello {
-    printIn('Hello, {message}')
-}
+number: r.randint(100000, 999999)
 
-say_hello
-~~~
+printIn(number)
